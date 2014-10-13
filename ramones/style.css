@@ -1,0 +1,216 @@
+/*
+	*Theme Name: Ramones
+	*Author: Ivan Cvetomirov Ivanov
+	*Author URI: http://ivanov.bgschool.bg
+	*License: MIT
+	*License URI: http://opensource.org/licenses/MIT
+	*Tags: JavaScript, KendoUI, HTML5, CSS3, jQuery, Twitter Bootstrap, Responsive
+    *Version: 1.0.4
+    *Description: Wordpress responsive theme using the latest web tehnologies	
+*/
+body .navbar {
+	border-bottom: 1px solid #0ef174;
+	margin-top: 0;
+}
+@media(min-width: 593px){	
+	.admin-bar .navbar{
+		margin-top: 2.3em;
+	}
+ }
+.navbar .navbar-nav  > li >  a{
+	color: limegreen;
+	cursor: pointer;
+}
+ @media (min-width: 766px) {
+.navbar .navbar-nav > li > a:hover{
+	background: #0ef174 !important;
+	color: white !important;
+	border-radius: 8px;   
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;  
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;	
+	opacity: 0.8;
+	filter: alpha(opacity=80);  
+}
+}
+@media (min-width: 766px) {
+	.navbar .navbar-header .navbar-brand {
+		display: none;
+	}
+}
+@media (max-width: 746px) {
+	.navbar-collapse .nav li{
+		border: 1px solid #0ef174;
+		margin-left: 2em;
+		margin-right: 2em;
+		margin-bottom: 1em;
+		border-radius: 0.5em;
+	}
+    .navbar-collapse .nav li a{
+       color: white;
+       border-radius: 0.3em;
+     }
+     .navbar-collapse .nav li a:hover{
+        color: #ffffff;
+        background: #0ef174;
+    }
+    .navbar-collapse .nav li:last-child{
+       margin-bottom: 0em;
+    }
+}
+hgroup h1{
+	font-weight: bold;	
+	font-size: 130%;
+}
+hgroup h2{
+	font-weight: bold;
+	font-size: 170%;
+}	
+hgroup h1,
+hgroup h2{
+	color: white !important;
+} 
+body #content{
+	margin-top: 3.7em;
+}
+body #content .jumbotron {
+	background: #0ef174;
+	border: 2px solid #0ef174;
+	background-color: #0ef174;    
+	background-image:  url("img/background.png");
+    background-attachment: fixed;          
+}      
+@media (min-width: 766px) {
+	.admin-bar #content{
+		margin-top: 3.6em;
+	}
+}
+.img-thumbnail {
+	border: 1px double black !important;
+	background: #0ef174;
+}
+.pager .previous a,
+.pager .next a{
+	color: #0ef174;
+}
+footer{
+	margin-top: 1em;
+	padding-top: 2em;
+	margin-bottom: -1m;
+	padding-bottom: 2em;
+	background: #0ef174;
+	border-top: 1px solid #0ef174;
+}
+footer p{
+	color: white;
+	font-size: 150%;
+}
+footer small.autor{
+	color: white;
+	font-size: 100%;
+	display: block;
+	text-align: center;
+}
+footer small.generator{
+	color: white;
+	font-size: 90%;
+	display: block;
+	text-align: center;
+}
+footer ul{
+	list-style: none;
+	margin-left: -2em;
+}
+footer ul li{
+	margin-left: -0.5em;
+}
+footer ul li a{
+	color: white;
+	font-size: 120%;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+footer ul li a:hover{
+	color: limegreen;
+	font-size: 130%;
+}
+.panel .panel-heading{
+	color: white;
+	background: #0ef174;
+}
+.panel-success{
+	border: 1px solid #0ef174;
+}
+.panel .panel-body ul{
+  list-style: none;
+  margin-left: -1.7em;
+}
+.panel .panel-body ul  li  a{
+	color: #0ef174;
+}
+.posts{
+	margin-top: -2em;
+}
+.posts .post{
+	padding-bottom: 1.2em;
+}
+.post .post-date{
+	font-style: italic;
+	clear: left;
+	float: left;
+	color: limegreen;
+}
+.post .post-category{
+	font-style: italic;
+	clear: right;
+	float: right;
+}
+.post .post-category ul{
+	list-style: none;
+}
+.post .post-category ul li a{
+	color: limegreen;
+}
+.post-header{
+	color: #0ef174;
+}
+.post .post-header a{
+	color: #0ef174;
+}
+h3.post-header{
+	margin-top: -0.7em;
+	margin-bottom: 2em;
+}
+form .btn-success{
+	background: #0ef174;
+	border: 1px solid #0ef174;
+}
+.btn-success{
+	background: #0ef174 !important;
+	border: 1px solid #0ef174 !important;
+}
+form .btn-success:hover{
+	background: limegreen;
+	color: white;
+	border: 1px solid lime;
+}
+.has-success {
+	color: #0ef174;
+}
+.has-success .form-control {
+	border-color: #0ef174;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);         
+}
+.has-success .form-control:focus {
+	border-color: none;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168;
+	-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168;     
+}
