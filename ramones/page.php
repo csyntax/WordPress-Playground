@@ -2,10 +2,11 @@
 	<div class="container">
 		<div class="row">             
 			<div class="col-md-4">
-				<?php 
-					get_search_form();				
-                 	get_sidebar('main');
-                 ?>
+				<div class="search-form">			
+					<?php get_search_form(); ?>
+					<br>
+				</div>
+				<?php get_sidebar('main');?>
 			</div>
 			<div class="col-xs-12 col-md-8">                				
 				<div class="posts">
