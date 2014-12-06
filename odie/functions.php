@@ -9,19 +9,19 @@
 	
 	//Main sidebar argumensts
 	$sidebar_main = array(
-			'name' => __('Main sidebar','ramones'),
-			'description' => __( 'Main sidebar.','ramones'),
+			'name' => __('Main sidebar','odie'),
+			'description' => __( 'Main sidebar.','odie'),
 			'id' => 'sidebar-main',
 			'before_widget' => '<aside class="panel panel-success">',
 			'after_widget' => '</div></aside>',
-			'before_title' => ' <div class="panel-heading"><span class="glyphicon glyphicon-pushpin"></span>',
+			'before_title' => ' <div class="panel-heading"><span class="glyphicon glyphicon-pushpin"></span>  ',
 			'after_title' => '</div><div class="panel-body">'
 	);
 	
 	//Footer sidebar argumensts
 	$sidebar_footer = array(
-			'name' => __('Footer sidebar','ramones'),
-			'description' => __( 'Footer sidebar.','ramones'),
+			'name' => __('Footer sidebar','odie'),
+			'description' => __( 'Footer sidebar.','odie'),
 			'id' => 'sidebar-footer',
 			'before_widget' => '<div class="col-xs-12 col-xs-6 col-md-3">',
 			'after_widget' => '</div>',
@@ -38,8 +38,8 @@
 	//Add theme to support feeds	
 	add_theme_support('automatic-feed-links');
 	
-	//ramones title
-	function ramones_wp_title( $title, $sep ) {
+	//odie title
+	function odie_wp_title( $title, $sep ) {
 		global $paged, $page;
 
 		if(is_feed()){ return $title; }
@@ -51,23 +51,19 @@
 			$title = "$title $sep $site_description";
 		}		
 		else if ($paged >= 2 || $page >= 2){
-			$title = "$title $sep " . sprintf( __( 'Page %s', 'ramones' ), max( $paged, $page ) );
+			$title = "$title $sep " . sprintf( __( 'Page %s', 'odie' ), max( $paged, $page ) );
 		}
 		return $title;
 	}	
 	
 	//Conect ramones title to wp_title()
-	add_filter( 'wp_title', 'ramones_wp_title', 10, 2 );
+	add_filter( 'wp_title', 'odie_wp_title', 10, 2 );
 	
 	//Page posts nav
-	function ramones_content_nav($id) {
+	function odie_content_nav($id) {
 		global $wp_query;
 		$id = esc_attr($id);
 		if ($wp_query->max_num_pages > 1){		
-			include'inc/ramones_content_nav.phtml';		
+			include'inc/odie_content_nav.phtml';		
 		}		
 	}
-
-	
-
-	

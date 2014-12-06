@@ -13,6 +13,6 @@
 			</div>
 			<div class="post-category">
 				<?php the_category();?>
-			</div>		
+			</div>	
 		</div>		
 	</article>

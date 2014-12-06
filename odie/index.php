@@ -14,13 +14,14 @@
 							while(have_posts()){
 								the_post();				 
 								get_template_part("content");
+								 
 							}
 						}else{
 							get_template_part("content","none");
 						}
 					?>	
 				</div>	
-				<?php ramones_content_nav( 'nav-below' ); ?>
+				<?php odie_content_nav( 'nav-below' ); ?>
 			</div>            
 		</div>		 
     </div> 

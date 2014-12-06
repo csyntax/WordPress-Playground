@@ -25,9 +25,7 @@
     
     <?php wp_head(); ?>		
     <style>
-    	/*
-    		Ivanov system 
-    	*/		
+    	/* Ivanov system */		
 		html { margin-top: 0px !important; }
 		* html body { margin-top: 0px !important; }
     </style>
