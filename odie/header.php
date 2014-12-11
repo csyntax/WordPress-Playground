@@ -65,13 +65,6 @@
 					</hgroup>					
 					<div class="col-sm-6 col-md-4">						
 						<img src="<?php echo get_template_directory_uri(); ?>/img/ivanov.png" class="img-responsive" width="250" alt="ivanov logo">
-						
-						<!--
-							for seo
-				
-			
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logos/ivanov.png" alt="ivanov offical logo" width="0" height="0">
-						-->
 					</div>		
 				</div>
 			</div>

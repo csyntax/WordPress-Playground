@@ -1,7 +1,7 @@
 <?php get_header();?>	
 	<div class="container">
 		<div class="row">             
-			<div class="col-md-4">				
+			<div class="col-md-4 sidebar">				
 				<?php 
 					get_search_form();				
                  	get_sidebar('main');
@@ -28,8 +28,7 @@
 								the_post();
 								get_template_part("content");
 							}
-						}
-						else{
+						}else{
 							get_template_part( 'content-none');
 						}
 					?>

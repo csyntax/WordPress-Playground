@@ -17,7 +17,6 @@
 				Създадено с гордост от WordPress
 			</small>
 		</div>	
-	</footer>		
-		
+	</footer>
 </body>
 </html>

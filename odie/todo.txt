@@ -1,2 +1,0 @@
-bootstrap => latest ver
-jquery => 1.11.1

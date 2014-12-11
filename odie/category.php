@@ -20,8 +20,7 @@
 								the_post();
 								get_template_part("content");	
 							}
-						}
-						else{
+						}else{
 							get_template_part( 'content-none');
 						}	
 					?>

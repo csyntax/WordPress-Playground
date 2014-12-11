@@ -7,33 +7,19 @@
 	//Register wp_menu
 	register_nav_menu('top','top');
 	
-	//Main sidebar argumensts
+	// Sidebar argumensts
 	$sidebar_main = array(
-			'name' => __('Main sidebar','odie'),
-			'description' => __( 'Main sidebar.','odie'),
-			'id' => 'sidebar-main',
-			'before_widget' => '<aside class="panel panel-success">',
-			'after_widget' => '</div></aside>',
-			'before_title' => ' <div class="panel-heading"><span class="glyphicon glyphicon-pushpin"></span>  ',
-			'after_title' => '</div><div class="panel-body">'
-	);
-	
-	//Footer sidebar argumensts
-	$sidebar_footer = array(
-			'name' => __('Footer sidebar','odie'),
-			'description' => __( 'Footer sidebar.','odie'),
-			'id' => 'sidebar-footer',
-			'before_widget' => '<div class="col-xs-12 col-xs-6 col-md-3">',
-			'after_widget' => '</div>',
-			'before_title' => '<p>',
-			'after_title' => '</p>'
-	);
+		'name' => __('Main sidebar','odie'),
+		'description' => __( 'Main sidebar.','odie'),
+		'id' => 'sidebar-main',
+		'before_widget' => '<aside class="panel panel-success">',
+		'after_widget' => '</div></aside>',
+		'before_title' => ' <div class="panel-heading"><span class="glyphicon glyphicon-pushpin"></span>  ',
+		'after_title' => '</div><div class="panel-body">'
+	);	
 	
 	//Register main sidebar
 	register_sidebar($sidebar_main);
-	
-	//Register footer sidebar
-	register_sidebar($sidebar_footer);
 	
 	//Add theme to support feeds	
 	add_theme_support('automatic-feed-links');
@@ -56,7 +42,7 @@
 		return $title;
 	}	
 	
-	//Conect ramones title to wp_title()
+	//Conect odie title to wp_title()
 	add_filter( 'wp_title', 'odie_wp_title', 10, 2 );
 	
 	//Page posts nav
@@ -66,4 +52,10 @@
 		if ($wp_query->max_num_pages > 1){		
 			include'inc/odie_content_nav.phtml';		
 		}		
+	}
+
+	// Check WordPress version
+	if (version_compare( $GLOBALS['wp_version'], '3.5', '<')) {
+		$wp_version = false;
+		echo 'Error WordPress < 3.5';
 	}
