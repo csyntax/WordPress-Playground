@@ -24,9 +24,10 @@
     <![endif]-->   
     
     <?php wp_head(); ?>		
+    
+    <!-- Ivanov blog system -->	
     <style>
-    	/* Ivanov system */		
-		html { margin-top: 0px !important; }
+    	html { margin-top: 0px !important; }
 		* html body { margin-top: 0px !important; }
     </style>
 </head>

@@ -20,7 +20,7 @@
 	
 	//Register main sidebar
 	register_sidebar($sidebar_main);
-	
+
 	//Add theme to support feeds	
 	add_theme_support('automatic-feed-links');
 	
