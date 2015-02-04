@@ -1,4 +1,4 @@
-WordPressProjects
+WordPress-Projects
 =================
 
 My WordPress Projects
