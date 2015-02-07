@@ -1,43 +1,43 @@
 /*
-	*Theme Name: Odie 
-	*Author: Ivan Cvetomirov Ivanov
-	*Author URI: http://ivanov.bgschool.bg
-	*License: MIT
-    *Version: 0.0.1 Priview
-    *Description: TODO
+	* Theme Name: Odie
+	* Author: Ivan Cvetomirov Ivanov
+	* Author URI: https://slayer11.github.io/
+	* License: MIT
+    * Version: s1.0.0
+    * Description: TODO
 */
 body .navbar {
 	border-bottom: 1px solid #0ef174;
 	margin-top: 0;
 }
-@media(min-width: 593px){	
+@media(min-width: 593px) {
 	.admin-bar .navbar{
 		margin-top: 2.3em;
 	}
  }
- @media(max-width: 593px){	
+@media(max-width: 593px) {
 	.jumbotron{
 		margin-top: -1.5em;
 	}
  }
-.navbar .navbar-nav  > li >  a{
+.navbar .navbar-nav  > li >  a {
 	color: limegreen;
 	cursor: pointer;
 }
  @media (min-width: 766px) {
-.navbar .navbar-nav > li > a:hover{
-	background: #0ef174 !important;
-	color: white !important;
-	border-radius: 8px;   
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;  
-	margin-top: 0.7em;
-	margin-bottom: 0.7em;
-	padding-top: 0.3em;
-	padding-bottom: 0.3em;	
-	opacity: 0.8;
-	filter: alpha(opacity=80);  
-}
+	.navbar .navbar-nav > li > a:hover{
+		background: #0ef174 !important;
+		color: white !important;
+		border-radius: 8px;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		margin-top: 0.7em;
+		margin-bottom: 0.7em;
+		padding-top: 0.3em;
+		padding-bottom: 0.3em;
+		opacity: 0.8;
+		filter: alpha(opacity=80);
+	}
 }
 @media (min-width: 766px) {
 	.navbar .navbar-header .navbar-brand {
@@ -80,7 +80,8 @@ body #content{
 	margin-top: 3.7em;
 }
 body #content .jumbotron {
-	padding-top: 6em;
+	padding-top: 7em;
+	padding-bottom: 4em;
 	background: #0ef174;
 	border: 2px solid #0ef174;
 	background-color: #0ef174;    

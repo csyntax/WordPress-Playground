@@ -1,9 +1,4 @@
 ﻿<?php
-	/*
-		@version 0.0.1 preview
-		@autor Ivan Cvetomirov Ivanov	
-	*/
-
 	//Register wp_menu
 	register_nav_menu('top','top');
 	
