@@ -1,4 +1,4 @@
-WordPress-Projects
+WordPress-Playground
 =================
 
 My WordPress Projects
