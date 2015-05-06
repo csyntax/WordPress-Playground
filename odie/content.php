@@ -1,4 +1,4 @@
-	<article class="post" id="post-<?php the_ID(); ?>">
+﻿	<article class="post" id="post-<?php the_ID(); ?>">
 		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<h2 class="post-header">				
 				<a href="<?php the_permalink(); ?>" title="<?php sprintf( __( 'Permanent Link to %s', 'odie' ), the_title_attribute( 'echo=0' ) ); ?>">

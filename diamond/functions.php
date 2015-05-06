@@ -1,7 +1,4 @@
 ﻿<?php
-	//Add language to template
-	load_theme_textdomain( 'diamond', get_template_directory() . '/languages' );	
-	
 	// Sidebar arguments 	
 	$sidebar = array(
 		'name' => __('Main sidebar','diamond'),		
@@ -11,80 +8,7 @@
 		'after_widget' => '</div></aside>',		
 		'before_title' => ' <div class="panel-heading"><span class="glyphicon glyphicon-pushpin"></span>',
 		'after_title' => '</div><div class="panel-body">'
-	);
-	
-	// Header arguments
-	$header = array(
-		'default-image' => '%s/img/header/header-ivanov.jpg',
-		'random-default' => true,
-		'width' => 1140,
-		'height' => 250,
-		'flex-height' => false,
-		'flex-width' => false,		
-		'header-text' => false,
-		'uploads' => false
 	);	
-	
-	// Sets default headers
-	$headers=array(
-		'Ivanov logo' => array(
-			'url' => '%s/img/headers/header-ivanov.png',
-			'thumbnail_url' =>'',
-			'description' => __('My Logo','diamond')
-		),
-		'HTML logo' => array(
-			'url' => '%s/img/headers/header-html.png',	
-				'thumbnail_url' =>'',
-			'description' => __('HTML logo','diamond')
-		),
-                'CSS logo' => array(
-			'url' => '%s/img/headers/header-css.png',
-				'thumbnail_url' =>'',
-			'description' => __('CSS logo','diamond')
-		),
-                 'JavaScript logo' => array(
-			'url' => '%s/img/headers/header-javascript.png',
-				'thumbnail_url' =>'',
-			'description' => __('JavaScript logo','diamond')
-		),
-                 'jQuery logo' => array(
-			'url' => '%s/img/headers/header-jquery.png',	
-			'thumbnail_url' =>'',			
-			'description' => __('jQuery logo','diamond')
-		),
-                'Canvas logo' => array(
-			'url' => '%s/img/headers/header-canvas.png',
-				'thumbnail_url' =>'',
-			'description' => __('Canvas logo','diamond')
-		),
-                'Kendo logo' => array(
-			'url' => '%s/img/headers/header-kendo.png',
-             'thumbnail_url' =>'',			
-			'description' => __('Kendo logo','diamond')
-		),
-                'Angular logo' => array(
-			'url' => '%s/img/headers/header-angular.png',
-				'thumbnail_url' =>'',
-			'description' => __('Angular logo','diamond')
-		),
-                'PHP logo' => array(
-                    'url' => '%s/img/headers/header-php.png',  
-						'thumbnail_url' =>'',
-                    'description' => __('PHP logo','diamond')
-		),
-                'Node logo' => array(
-                    'url' => '%s/img/headers/header-node.png',  
-						'thumbnail_url' =>'',
-                    'description' => __('Node logo','diamond')
-		),
-		       'WordPress logo' => array(
-                    'url' => '%s/img/headers/header-wordpress.png',
-						'thumbnail_url' =>'',
-                    'description' => __('WordPress logo','diamond')
-		)
-            
-                
-	);
 	
 	// Background arguments
 	$background = array(
@@ -118,12 +42,6 @@
 		
 	// Register dynamic WordPress sidebar
 	register_sidebar($sidebar);	
-	
-	// Register dynamic WordPress header images
-	register_default_headers($headers);
-
-	// Add theme to support WordPress custom headers
-	add_theme_support( 'custom-header', $header );
 	
 	// Add theme to support WordPress custom background
 	add_theme_support( 'custom-background', $background );
