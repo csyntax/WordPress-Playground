@@ -1,0 +1,2 @@
+* Update Odie theme
+* Update Odie-GitHub plugin

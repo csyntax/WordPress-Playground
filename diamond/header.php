@@ -21,7 +21,8 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/modernizr.min.js"></script> 
 	<script src="<?php echo get_template_directory_uri(); ?>/js/prism.min.js"></script>   	
 	
-    <script>     	  
+    <script>  
+			/* TODO UPDATE JS*/
 		Modernizr.load();    	
 		Prism.highlightAll();		
 		var precode = document.getElementById('pre');
@@ -58,16 +59,9 @@
     <!--[if lt IE 9]>
         <script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.min.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/js/respond.min.js"></script>
-		<script src="<?php echo get_template_directory_uri(); ?>/js/sizzle.min.js"></script>
     <![endif]-->
     <!--[if IE 7]><style type="text/css">.panel-body > ul{margin-left: -0.2em;} </style> <![endif]-->    
     <!--[if lt IE 7]><style type="text/css">body{display: none;}</style><![endif]-->
-	
-	<!--[if IE]>
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/qunit.min.css">	
-		<script src="<?php echo get_template_directory_uri(); ?>/js/qunit.min.js"></script>
-		<script>document.createElement('main');</script>
-	 <![endif]-->
 	
 	<?php wp_head(); ?>	
 </head>
