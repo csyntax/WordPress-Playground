@@ -1,70 +1,57 @@
 /*
-	* Theme Name: Odie
-	* Author: Ivan Cvetomirov Ivanov
-	* Author URI: https://slayer11.github.io/
-	* License: MIT
+    * Theme Name: Odie
+    * Author: Ivan Cvetomirov Ivanov
+    * Author URI: https://slayer11.github.io/
+    * License: MIT
     * Version: 2.0.0
     * Description: WordPress responsive template based on HTML5 and JavaScript
 */
 body {
-	padding-top: 1em;
+    font-family: sans-serif;
+    padding-top: 1em;
 }
 .navbar {
-	border: none;
+    border: none;
 }
 .navbar .navbar-nav  li  a {
-	color: #0ef174;
+    color: #0ef174;
 }
- @media (min-width: 766px) {
-	.navbar .navbar-nav  li  a:hover, 
-	.navbar .navbar-nav  li  a:focus,
-	.navbar .navbar-nav  li  a:active {
-		background: #0ef174;
-		color: white;
-	}
+.navbar .navbar-nav  li  a:hover, 
+.navbar .navbar-nav  li  a:focus,
+.navbar .navbar-nav  li  a:active {
+    background: #0ef174;
+    color: white;
 }
+
 @media (min-width: 766px) {
-	.navbar .navbar-header .navbar-brand {
-		display: none;
-	}
-}
-@media (max-width: 746px) {
-	.navbar-collapse .nav li{
-		border: 1px solid #0ef174;
-		margin-left: 2em;
-		margin-right: 2em;
-		margin-bottom: 1em;
-		border-radius: 0.5em;
-	}
-    .navbar-collapse .nav li a{
-       color: white;
-       border-radius: 0.3em;
-     }
-     .navbar-collapse .nav li a:hover{
-        color: #ffffff;
-        background: #0ef174;
-    }
-    .navbar-collapse .nav li:last-child{
-       margin-bottom: 0em;
+    .navbar .navbar-header .navbar-brand {
+        display: none;
     }
 }
-hgroup h1{
-	font-weight: bold;	
-	font-size: 130%;
-}
-hgroup h2{
-	font-weight: bold;
-	font-size: 170%;
-}	
-hgroup h1,
-hgroup h2{
-	color: white !important;
+
+.site-header {
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    background: #0ef174;
+    border: 0.2em solid #0ef174;
+    border-radius: 0.5em;
 } 
 
-.jumbotron {
-	background: #0ef174;
-	border: 2px solid #0ef174;         
-}      
+.site-header h1 {
+    margin-top: 1em;
+    font-size: 2.5em;
+}
+
+.site-header h2 {
+    font-size: 2em;
+}
+
+.site-header h1,
+.site-header h2 {
+    color: white !important;
+}
 
 .pager .previous a,
 .pager .next a{
