@@ -1,9 +1,9 @@
 ﻿	<form action="<?php bloginfo('url');?>" method="get">	
 		<div class="input-group has-success">
-			<input type="search" class="form-control" name="s" placeholder="Търсене">
+			<input type="search" class="form-control" name="s" placeholder="Search">
 			<span class="input-group-btn">
 				<button class="btn btn-success" type="submit">
-					Търсене
+                                    Search
 				</button>
 			</span>
 		</div>		

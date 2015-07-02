@@ -74,6 +74,12 @@ body {
     color: white !important;
 }
 
+.not-found {
+    font-size: 3em;
+    color: rgb(14, 241, 116);
+    border: none;
+}
+
 .pager .previous a,
 .pager .next a{
 	color: #0ef174;
