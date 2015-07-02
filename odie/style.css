@@ -7,6 +7,27 @@
     * Description: WordPress responsive template based on HTML5 and JavaScript
 */
 body {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  body {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    width: 1170px;
+  }
+}
+body {
     font-family: sans-serif;
     padding-top: 1em;
 }

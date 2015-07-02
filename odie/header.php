@@ -25,7 +25,6 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>> 
-    <div class="container">
         <header class="site-header">
             <div class="container">
 		<div class="row">					
