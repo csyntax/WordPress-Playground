@@ -13,11 +13,9 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url');?>">    
     <link rel="profile" href="http://gmpg.org/xfn/11">  
 	<link rel="home" href="<?php echo esc_url( home_url( '/' ));?>"> 		
-	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/logos/ivanov.png">
 	
 	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>	
-    <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script> 
-    <script src="<?php echo get_template_directory_uri(); ?>/js/modernizr.min.js"></script>  	
+    <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>  	
 	
 	<!--[if lt IE 9]>
         <script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.min.js"></script>
